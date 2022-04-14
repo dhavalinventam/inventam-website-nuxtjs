@@ -6,11 +6,10 @@
     <CoreServices />
     <TechWeUse />
     <OurApproach />
+    <HowWeDo />
+    <BlogListing />
   </div>
 </template>
-
-
-
 
 
 
@@ -24,9 +23,11 @@ import HomeHireDev from '../components/HomeHireDev.vue'
 import CoreServices from '../components/CoreServices.vue'
 import TechWeUse from '../components/TechWeUse.vue'
 import OurApproach from '../components/OurApproach'
+import HowWeDo from '../components/HowWeDo'
+import BlogListing from '../components/BlogListing'
 
 export default {
-  components: { AppHeader , HomeBanner , HomeHireDev , CoreServices , TechWeUse , OurApproach },
+  components: { AppHeader , HomeBanner , HomeHireDev , CoreServices , TechWeUse , OurApproach , HowWeDo , BlogListing },
   name: 'IndexPage',
 }
 </script>

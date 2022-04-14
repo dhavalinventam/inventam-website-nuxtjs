@@ -587,6 +587,11 @@ footer {
 .blog-dates-div a {
     font-size: 15px;
     color: #989898;
+    text-decoration: none;
+}
+.blog-dates-div a:hover {
+    color: #0056b3;
+    text-decoration: underline;
 }
 .blog-dates-div p {
     margin-bottom: 0px;
