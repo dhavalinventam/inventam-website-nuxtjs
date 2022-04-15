@@ -8,6 +8,8 @@
     <OurApproach />
     <HowWeDo />
     <BlogListing />
+    <SatisfiedClients />
+    <AppFooter />
   </div>
 </template>
 
@@ -25,9 +27,11 @@ import TechWeUse from '../components/TechWeUse.vue'
 import OurApproach from '../components/OurApproach'
 import HowWeDo from '../components/HowWeDo'
 import BlogListing from '../components/BlogListing'
+import SatisfiedClients from '../components/SatisfiedClients'
+import AppFooter from '../components/AppFooter'
 
 export default {
-  components: { AppHeader , HomeBanner , HomeHireDev , CoreServices , TechWeUse , OurApproach , HowWeDo , BlogListing },
+  components: { AppHeader , HomeBanner , HomeHireDev , CoreServices , TechWeUse , OurApproach , HowWeDo , BlogListing , SatisfiedClients , AppFooter },
   name: 'IndexPage',
 }
 </script>
