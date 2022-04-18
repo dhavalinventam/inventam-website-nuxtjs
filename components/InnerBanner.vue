@@ -7,12 +7,12 @@
       <picture>
         <source
           media="(min-width:768px)"
-          srcset="image/about-us-desk-banner.jpg"
+          :srcset='deskbannerImg'
         />
         <img
-          src="image/about-us-mob-banner.jpg"
+          :src='mobbannerImg'
           class="img-fluid"
-          alt="career Banner"
+          alt="Banner"
         />
       </picture>
       <div class="inner-banners-texts-div">
@@ -34,6 +34,14 @@ export default {
   props: {
     title: {
       type: String,
+      default:'',
+    },
+     deskbannerImg: {
+      imgURL: String,
+      default:'',
+    },
+    mobbannerImg: {
+      imgURL: String,
       default:'',
     },
   },
