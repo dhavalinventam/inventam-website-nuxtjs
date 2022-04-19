@@ -1,12 +1,15 @@
 <template>
   <div>
-    <div class="sasa-development-company common-padding-div bg-gray">
+    <div class="sasa-development-company common-padding-div">
       <div class="container">
         <div class="row">
           <div class="col-md-6 align-flex-div">
             <div class="common-contains-div">
               <div class="sub-heading-div">
                 <h4 class="sub-heading-text">{{lefttitle}}</h4>
+              </div>
+              <div class="common-sub-points-div">
+                  <h4>{{subheading}}</h4>
               </div>
               <p class="common-para">
                 {{leftpara1}}
@@ -45,6 +48,10 @@ export default {
   name: 'LeftSideFormat',
   props: {
     lefttitle: {
+      type: String,
+      default:'',
+    },
+    subheading: {
       type: String,
       default:'',
     },

@@ -7,7 +7,7 @@
     <TechWeUse />
     <OurApproach />
     <HowWeDo />
-    <BlogListing />
+    <BlogItems />
     <SatisfiedClients />
     <AppFooter />
   </div>
@@ -26,12 +26,12 @@ import CoreServices from '../components/CoreServices.vue'
 import TechWeUse from '../components/TechWeUse.vue'
 import OurApproach from '../components/OurApproach'
 import HowWeDo from '../components/HowWeDo'
-import BlogListing from '../components/BlogListing'
+import BlogItems from '../components/BlogItems'
 import SatisfiedClients from '../components/SatisfiedClients'
 import AppFooter from '../components/AppFooter'
 
 export default {
-  components: { AppHeader , HomeBanner , HomeHireDev , CoreServices , TechWeUse , OurApproach , HowWeDo , BlogListing , SatisfiedClients , AppFooter },
+  components: { AppHeader , HomeBanner , HomeHireDev , CoreServices , TechWeUse , OurApproach , HowWeDo , BlogItems , SatisfiedClients , AppFooter },
   name: 'IndexPage',
 }
 </script>

@@ -2,9 +2,13 @@
   <div>
     <AppHeader />
     <InnerBanner :title="title" :deskbannerImg="deskbannerImg" :mobbannerImg="mobbannerImg" />
-    <LeftSideFormat :lefttitle="section1title1" :leftpara1="section1para1" :leftpara2="section1para2" :leftbutton="section1button1" :leftimg="section1img1" />
+    <div class="bg-gray">
+      <LeftSideFormat :lefttitle="section1title1" :leftpara1="section1para1" :leftpara2="section1para2" :leftbutton="section1button1" :leftimg="section1img1" />
+    </div>
     <TechWeUse />
-    <LeftSideFormat :lefttitle="section2title1" :leftpara1="section2para1" :leftbutton="section2button1" :leftimg="section2img1" />
+    <div class="bg-gray">
+      <LeftSideFormat :lefttitle="section2title1" :leftpara1="section2para1" :leftbutton="section2button1" :leftimg="section2img1" />
+    </div>
     <SatisfiedClients />
     <AppFooter />
   </div>

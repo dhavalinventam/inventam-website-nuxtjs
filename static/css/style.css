@@ -984,9 +984,13 @@ footer {
 .openings-dropdon-div .form-group {
     min-width: 200px;
     margin-right: 15px;
+    margin-bottom: 1rem;
 }
 .openings-dropdon-div .form-group select {
     color: #111111;
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
 }
 .openings-dropdon-div .form-group select:focus {
     box-shadow: unset !important;
@@ -1075,6 +1079,7 @@ footer {
     color: #3b3b3c;
     font-size: 14px;
     font-weight: 600;
+    text-decoration: none;
 }
 .blog-links:hover {
     text-decoration: none !important;
@@ -1141,6 +1146,7 @@ footer {
 .blog-sidebar-contains-div .common-ul-li-div ul li a {
     color: #333333;
     font-weight: 600;
+    text-decoration: none;
 }
 .blog-sidebar-contains-div .common-ul-li-div ul li a:hover {
     color: #0173b1;

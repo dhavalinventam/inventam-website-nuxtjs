@@ -6,7 +6,7 @@
           <h2 class="common-heading-text mb-0">Blog</h2>
         </div>
         <div class="row">
-          <div v-for="(item, index) of bloglisting"
+          <div v-for="(item, index) of blogitems"
             :key="index" class="col-md-4">
             <div class="blog-box-main-div">
               <div class="blog-img-div">
@@ -47,10 +47,10 @@
 import img1 from '../static/image/blog-img1.jpg'
 
 export default {
-  name: 'BlogListing',
+  name: 'BlogItems',
   data() {
     return {
-      bloglisting: [
+      blogitems: [
         {
           img: img1,
           designation: 'Full Stack Developer',

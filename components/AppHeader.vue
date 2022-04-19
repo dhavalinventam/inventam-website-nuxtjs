@@ -17,29 +17,29 @@
               <b-nav-item to="/">Home</b-nav-item>
               <div class="single-dropdownmenu-div">
                 <b-nav-item-dropdown text="What We Do" right>
-                  <b-dropdown-item href="#"
+                  <b-dropdown-item to="#"
                     >SAAS Application Development</b-dropdown-item
                   >
-                  <b-dropdown-item href="#"
+                  <b-dropdown-item to="#"
                     >Mobile App Developement</b-dropdown-item
                   >
-                  <b-dropdown-item href="#"
+                  <b-dropdown-item to="#"
                     >Web Apps & Website Developement</b-dropdown-item
                   >
-                  <b-dropdown-item href="#"
+                  <b-dropdown-item to="#"
                     >Full Stack Developement</b-dropdown-item
                   >
-                  <b-dropdown-item href="#"
+                  <b-dropdown-item to="#"
                     >Serverless Development</b-dropdown-item
                   >
-                  <b-dropdown-item href="#">API development</b-dropdown-item>
-                  <b-dropdown-item href="#">Devops Services</b-dropdown-item>
-                  <b-dropdown-item href="#">UI/UX Design</b-dropdown-item>
+                  <b-dropdown-item to="#">API development</b-dropdown-item>
+                  <b-dropdown-item to="#">Devops Services</b-dropdown-item>
+                  <b-dropdown-item to="#">UI/UX Design</b-dropdown-item>
                 </b-nav-item-dropdown>
               </div>
               <b-nav-item to="/aboutus">About Us</b-nav-item>
-              <b-nav-item href="#">Career</b-nav-item>
-              <b-nav-item href="#">Blog</b-nav-item>
+              <b-nav-item to="/career">Career</b-nav-item>
+              <b-nav-item to="/bloglisting">Blog</b-nav-item>
               <b-nav-item to="/contactus">Contact Us</b-nav-item>
             </b-navbar-nav>
           </b-collapse>
