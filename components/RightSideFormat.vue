@@ -15,19 +15,19 @@
           <div class="col-md-6">
             <div class="common-contains-div">
               <div class="sub-heading-div">
-                <h4 class="sub-heading-text">{{RightSectiontitle}}</h4>
+                <h4 class="sub-heading-text">{{ RightSectiontitle }}</h4>
               </div>
               <p class="common-para">
-                {{Rightparagraph1}}
+                {{ Rightparagraph1 }}
               </p>
               <p class="common-para">
-                {{Rightparagraph2}}
+                {{ Rightparagraph2 }}
               </p>
               <p class="common-para">
-                {{Rightparagraph3}}
+                {{ Rightparagraph3 }}
               </p>
               <p class="common-para">
-                {{Rightparagraph4}}
+                {{ Rightparagraph4 }}
               </p>
             </div>
           </div>
@@ -49,15 +49,15 @@ export default {
       type: String,
       default: '',
     },
-     Rightparagraph2: {
+    Rightparagraph2: {
       type: String,
       default: '',
     },
-     Rightparagraph3: {
+    Rightparagraph3: {
       type: String,
       default: '',
     },
-     Rightparagraph4: {
+    Rightparagraph4: {
       type: String,
       default: '',
     },

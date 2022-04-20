@@ -41,14 +41,10 @@
                   <li><a href="#">Blog</a></li>
                   <li><a href="#">Contact Us</a></li>
                   <li>
-                    <a href="#"
-                      >Hybrid Mobile App Development</a
-                    >
+                    <a href="#">Hybrid Mobile App Development</a>
                   </li>
                   <li>
-                    <a href="#"
-                      >Web Apps & Websites Development</a
-                    >
+                    <a href="#">Web Apps & Websites Development</a>
                   </li>
                 </ul>
               </div>

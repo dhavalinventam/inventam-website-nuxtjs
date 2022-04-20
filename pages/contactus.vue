@@ -144,7 +144,7 @@ import InqueryForm from '../components/InqueryForm.vue'
 
 export default {
   name: 'ConatctUs',
-  components: { AppHeader, InnerBanner, AppFooter , InqueryForm },
+  components: { AppHeader, InnerBanner, AppFooter, InqueryForm },
   data() {
     return {
       title: 'Contact Us',

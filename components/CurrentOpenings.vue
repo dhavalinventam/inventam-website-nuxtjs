@@ -23,26 +23,32 @@
           </div>
         </div>
         <div class="row">
-          <div v-for="(item, index) of currentopenings"
-              :key="index" class="col-md-6">
+          <div
+            v-for="(item, index) of currentopenings"
+            :key="index"
+            class="col-md-6"
+          >
             <div class="current-openings-box-div">
               <h4 class="openings-heading">
-                {{item.title}}
+                {{ item.title }}
               </h4>
               <div class="current-position-div">
                 <p class="openings-text">
-                  <i class="fa fa-briefcase" aria-hidden="true"></i> {{item.jobtiming}}
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>
+                  {{ item.jobtiming }}
                 </p>
                 <p class="openings-text">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i> {{item.location}}
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  {{ item.location }}
                 </p>
                 <p class="openings-text">
-                  <i class="fa fa-user" aria-hidden="true"></i> {{item.vacancy}}
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  {{ item.vacancy }}
                 </p>
               </div>
               <div class="common-btn-div">
                 <a href="flutter-developer.html" class="btn"
-                  >{{item.button}}
+                  >{{ item.button }}
                   <i
                     class="fa fa-arrow-right left-right-move"
                     aria-hidden="true"
@@ -62,45 +68,45 @@ export default {
   name: 'CurrentOpenings',
 
   data() {
-      return {
-          currentopenings: [
-            {
-                title: 'Flutter Developer | 6 Months – 3 Years Exp.',
-                jobtiming: 'Full Time',
-                location: 'Surat',
-                vacancy: '2',
-                button: 'More Details',
-            },
-            {
-                title: 'Front-End Developer | React | Vue | 6 Months – 3 Years Exp.',
-                jobtiming: 'Full Time',
-                location: 'Surat',
-                vacancy: '5',
-                button: 'More Details',
-            },
-            {
-                title: 'Backend Developer | Node | Python | 1 – 3 Year(S) Exp.',
-                jobtiming: 'Full Time',
-                location: 'Surat',
-                vacancy: '5',
-                button: 'More Details',
-            },
-            {
-                title: 'Full-Stack Developer | React | Vue | Node | 3-5 Year(S) Exp.',
-                jobtiming: 'Full Time',
-                location: 'Surat',
-                vacancy: '2',
-                button: 'More Details',
-            },
-            {
-                title: 'Full-Stack Developer | React | Vue | Node | 1-2 Year(S) Exp.',
-                jobtiming: 'Full Time',
-                location: 'Surat',
-                vacancy: '3',
-                button: 'More Details',
-            },
-          ]
-      }
+    return {
+      currentopenings: [
+        {
+          title: 'Flutter Developer | 6 Months – 3 Years Exp.',
+          jobtiming: 'Full Time',
+          location: 'Surat',
+          vacancy: '2',
+          button: 'More Details',
+        },
+        {
+          title: 'Front-End Developer | React | Vue | 6 Months – 3 Years Exp.',
+          jobtiming: 'Full Time',
+          location: 'Surat',
+          vacancy: '5',
+          button: 'More Details',
+        },
+        {
+          title: 'Backend Developer | Node | Python | 1 – 3 Year(S) Exp.',
+          jobtiming: 'Full Time',
+          location: 'Surat',
+          vacancy: '5',
+          button: 'More Details',
+        },
+        {
+          title: 'Full-Stack Developer | React | Vue | Node | 3-5 Year(S) Exp.',
+          jobtiming: 'Full Time',
+          location: 'Surat',
+          vacancy: '2',
+          button: 'More Details',
+        },
+        {
+          title: 'Full-Stack Developer | React | Vue | Node | 1-2 Year(S) Exp.',
+          jobtiming: 'Full Time',
+          location: 'Surat',
+          vacancy: '3',
+          button: 'More Details',
+        },
+      ],
+    }
   },
 }
 </script>

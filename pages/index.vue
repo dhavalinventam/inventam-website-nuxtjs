@@ -13,11 +13,6 @@
   </div>
 </template>
 
-
-
-
-
-
 <script>
 import AppHeader from '../components/AppHeader.vue'
 import HomeBanner from '../components/HomeBanner.vue'
@@ -31,7 +26,18 @@ import SatisfiedClients from '../components/SatisfiedClients'
 import AppFooter from '../components/AppFooter'
 
 export default {
-  components: { AppHeader , HomeBanner , HomeHireDev , CoreServices , TechWeUse , OurApproach , HowWeDo , BlogItems , SatisfiedClients , AppFooter },
+  components: {
+    AppHeader,
+    HomeBanner,
+    HomeHireDev,
+    CoreServices,
+    TechWeUse,
+    OurApproach,
+    HowWeDo,
+    BlogItems,
+    SatisfiedClients,
+    AppFooter,
+  },
   name: 'IndexPage',
 }
 </script>

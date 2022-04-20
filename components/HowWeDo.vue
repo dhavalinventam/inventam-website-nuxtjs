@@ -7,13 +7,10 @@
         </div>
         <div class="how-we-do-sub-div">
           <div class="row">
-            <div v-for="(item, index) of howwedo"
-            :key="index" class="col-md-4">
+            <div v-for="(item, index) of howwedo" :key="index" class="col-md-4">
               <div class="how-we-do-box-div box-margin-div">
                 <div class="how-we-do-icon-div">
-                  <img 
-                    :src="item.img"
-                    class="img-fluid" />
+                  <img :src="item.img" class="img-fluid" />
                 </div>
                 <h5>{{ item.title }}</h5>
                 <p class="common-para">{{ item.desc }}</p>
@@ -27,7 +24,6 @@
 </template>
 
 <script>
-
 import img1 from '../static/image/requirement-icon.png'
 import img2 from '../static/image/planning-icon.png'
 import img3 from '../static/image/design-icon.png'
@@ -43,32 +39,32 @@ export default {
         {
           img: img1,
           title: 'Requirement Gathering',
-          desc: 'Write answers to questions written or dictated, to satisfy a practical test.'
+          desc: 'Write answers to questions written or dictated, to satisfy a practical test.',
         },
         {
           img: img2,
           title: 'Planning',
-          desc: 'Selection of tech stack, project architecture and time-line of implement.'
+          desc: 'Selection of tech stack, project architecture and time-line of implement.',
         },
         {
           img: img3,
           title: 'Design',
-          desc: 'We will Create a elegant layout and wireframe for your project.'
+          desc: 'We will Create a elegant layout and wireframe for your project.',
         },
         {
           img: img4,
           title: 'Development',
-          desc: 'Building and testing your dream product'
+          desc: 'Building and testing your dream product',
         },
         {
           img: img5,
           title: 'Deployment',
-          desc: 'Creating an environment, for growing, scaling and monitoring'
+          desc: 'Creating an environment, for growing, scaling and monitoring',
         },
         {
           img: img6,
           title: 'Maintenance',
-          desc: 'It is an important step which makes sure that your product works with efficiency all the time.'
+          desc: 'It is an important step which makes sure that your product works with efficiency all the time.',
         },
       ],
     }
