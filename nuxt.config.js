@@ -25,13 +25,17 @@ export default {
       { 
         rel: 'stylesheet', 
         href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' 
+      },
+      { 
+        rel: 'stylesheet', 
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css' 
       }
     ],
-    // script: [
-    //   {
-    //     src: "https://code.jquery.com/jquery-3.5.1.min.js",
-    //   },
-    // ],
+    script: [
+      {
+        src: "https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js",
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

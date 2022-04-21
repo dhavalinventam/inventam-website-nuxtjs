@@ -16,6 +16,7 @@
         :Rightparagraph1="rigthtSide1.rightsection1para1"
         :Rightparagraph2="rigthtSide1.rightsection1para2"
         :RightSectionImg="rigthtSide1.rightsection1img1"
+        :isButton="rigthtSide1.isButton"
       />
     </div>
     <div class="bg-gray">
@@ -32,6 +33,14 @@
       />
     </div>
     <CoreValue :coreValue="CoreValue" />
+    <div class="bg-gray">
+      <LeftSideFormat
+        :lefttitle="leftSide3.section3title1"
+        :leftpara1="leftSide3.section2para1"
+        :leftimg="leftSide3.section3img1"
+        :leftbutton="leftSide3.section3btn"
+      />
+    </div>
     <AppFooter />
   </div>
 </template>
@@ -50,6 +59,7 @@ import icon1 from '../static/image/effective-strategies-icon.png'
 import icon2 from '../static/image/design-development-icon.png'
 import icon3 from '../static/image/proactive-management-icon.png'
 import icon4 from '../static/image/cost-effectiveness-icon.png'
+import leftsectionimg3 from '../static/image/why-choose-us-img.png'
 
 export default {
   name: 'SaasApplicationDevelopmentCompany',
@@ -78,6 +88,7 @@ export default {
         rightsection1para2:
           'Our SaaS expert team proficient in technologies like Java, Microsoft ASP.NET, SQL Server, Oracle, My SQL, Ruby on Rails, Python and Perl, LAMP, and many others. We reduce the management complexity of a business and help to free up a business’ IT personnel and budgets to focus on more business-critical functions.',
         rightsection1img1: rightsectionimg1,
+        isButton: false,
       },
       leftSide2: {
         section2title1: 'Customized SAAS Development Solutions',
@@ -103,20 +114,27 @@ export default {
           },
           {
             icon: icon2,
-            heading: 'Effective Strategies',
-            description: 'Leverage Proven Roadmap Ready For Your Saas Project',
+            heading: 'Design & Development',
+            description: 'Start With Design And Development For Your Saas App',
           },
           {
             icon: icon3,
-            heading: 'Effective Strategies',
-            description: 'Leverage Proven Roadmap Ready For Your Saas Project',
+            heading: 'Proactive Management',
+            description: 'Deliver a Contemporary & Immersive Software Solution',
           },
           {
             icon: icon4,
-            heading: 'Effective Strategies',
-            description: 'Leverage Proven Roadmap Ready For Your Saas Project',
+            heading: 'Cost Effectiveness',
+            description: 'Save Through Cost Effective Global Delivery Model',
           },
         ],
+      },
+      leftSide3: {
+        section3title1: 'Why choose us?',
+        section2para1:
+          'We have dive deeper into Cloud services and solutions such as SaaS, IaaS, and various backend solutions based on Node.js & Laravel. Our experience provides you the best business-specific solutions that the clients need. We are a SaaS application development company with hands-on experience in creating top-performing softwares, websites along with cloud based applications. Our SaaS development process covers planning, designing & development, testing, 3rd party integration, and ongoing support/maintenance.',
+        section3img1: leftsectionimg3,
+        section3btn: 'Contact Us',
       },
     }
   },

@@ -61,8 +61,7 @@
               <div class="common-contain-img-div">
                 <img
                   src="image/our-approach-img.png"
-                  class="img-fluid wow zoomIn animated"
-                  data-wow-delay="0.5s"
+                  class="img-fluid"
                 />
               </div>
             </div>

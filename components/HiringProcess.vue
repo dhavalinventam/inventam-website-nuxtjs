@@ -16,8 +16,7 @@
                 <div class="service-img">
                   <img
                     :src="item.img"
-                    class="img-fluid wow zoomIn animated"
-                    data-wow-delay="0.5s"
+                    class="img-fluid"
                     alt="icon"
                   />
                 </div>

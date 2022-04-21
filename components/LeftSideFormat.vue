@@ -43,7 +43,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="common-contain-img-div padding-left-div mob-ts">
+            <div class="common-contain-img-div padding-left-div mob-ts text-center">
               <img :src="leftimg" class="img-fluid" data-wow-delay="0.5s" />
             </div>
           </div>

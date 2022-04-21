@@ -17,9 +17,7 @@
                 <div class="service-img">
                   <img
                     :src="item.img"
-                    class="img-fluid wow zoomIn animated"
-                    data-wow-delay="0.5s"
-                    alt="SAAS Application Development"
+                    class="img-fluid"
                   />
                 </div>
                 <h6 class="service-heading">{{ item.title }}</h6>

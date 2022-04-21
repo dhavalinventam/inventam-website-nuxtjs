@@ -395,6 +395,7 @@ footer {
     transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1);
     text-align: center;
     position: relative;
+    margin-bottom: 30px;
 }
 .service-img {
     text-align: center;
@@ -1438,6 +1439,9 @@ footer {
     .core-values-main-div .how-we-do-box-div {
         margin-bottom: 95px;
     }
+    .how-we-do-sub-div .col-md-6.col-lg-3:last-child > .how-we-do-box-div {
+        margin-bottom: 0px;
+    } 
     .core-values-main-div .how-we-do-box-div.box-margin-div {
         margin-bottom: 0px;
     }

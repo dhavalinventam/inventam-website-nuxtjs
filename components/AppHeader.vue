@@ -20,21 +20,21 @@
                   <b-dropdown-item to="/saas-application-development-company"
                     >SAAS Application Development</b-dropdown-item
                   >
-                  <b-dropdown-item to="#"
+                  <b-dropdown-item to="/hybrid-mobile-apps-development-company"
                     >Mobile App Developement</b-dropdown-item
                   >
-                  <b-dropdown-item to="#"
+                  <b-dropdown-item to="/web-application-development-company"
                     >Web Apps & Website Developement</b-dropdown-item
                   >
-                  <b-dropdown-item to="#"
+                  <b-dropdown-item to="/full-stack-development-company"
                     >Full Stack Developement</b-dropdown-item
                   >
-                  <b-dropdown-item to="#"
+                  <b-dropdown-item to="/serverless-application-development-company"
                     >Serverless Development</b-dropdown-item
                   >
-                  <b-dropdown-item to="#">API development</b-dropdown-item>
-                  <b-dropdown-item to="#">Devops Services</b-dropdown-item>
-                  <b-dropdown-item to="#">UI/UX Design</b-dropdown-item>
+                  <b-dropdown-item to="/custom-api-development-company">API development</b-dropdown-item>
+                  <b-dropdown-item to="/devops-services-and-solutions">Devops Services</b-dropdown-item>
+                  <b-dropdown-item to="/ui-ux-design-company">UI/UX Design</b-dropdown-item>
                 </b-nav-item-dropdown>
               </div>
               <b-nav-item to="/aboutus">About Us</b-nav-item>

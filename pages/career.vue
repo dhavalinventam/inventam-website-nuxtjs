@@ -21,6 +21,7 @@
       :Rightparagraph3="rightsection1para3"
       :Rightparagraph4="rightsection1para4"
       :RightSectionImg="rightsection1img1"
+      :isButton="isButton"
     />
     <div class="bg-gray">
       <HiringProcess />
@@ -75,6 +76,7 @@ export default {
         'Supportiveness is an essential part of Inventam Tech Solution. We are providing environment and time for a team member to learn and adopt new technical skills. The same thing is applied to new members if a person has enough experience or a strong logical foundation will provide an environment and time to learn a certain skill.',
       rightsection1para4: 'Working Time. 5 Days a week | 9 AM to 6 PM',
       rightsection1img1: rightsectionimg1,
+      isButton: false,
     }
   },
 }

@@ -7,8 +7,7 @@
             <div class="common-contain-img-div padding-right-div mob-ts">
               <img
                 :src="RightSectionImg"
-                class="img-fluid wow zoomIn animated"
-                data-wow-delay="0.5s"
+                class="img-fluid"
               />
             </div>
           </div>
@@ -29,6 +28,15 @@
               <p class="common-para">
                 {{ Rightparagraph4 }}
               </p>
+              <div class="common-btn-div mt-5" v-if="isButton">
+                <a href="#" class="btn"
+                  >{{ leftbutton }}
+                  <i
+                    class="fa fa-arrow-right left-right-move"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
@@ -68,6 +76,15 @@ export default {
     RightButton: {
       imgURL: String,
       default: '',
+    },
+    leftbutton: {
+      imgURL: String,
+      default: '',
+    },
+    isButton: {
+      // Button hide in other page
+      type: Boolean,
+      default: true,
     },
   },
 }

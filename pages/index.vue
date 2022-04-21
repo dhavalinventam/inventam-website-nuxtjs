@@ -40,4 +40,6 @@ export default {
   },
   name: 'IndexPage',
 }
+
+// AOS.init();
 </script>

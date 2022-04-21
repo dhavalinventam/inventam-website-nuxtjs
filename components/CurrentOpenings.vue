@@ -47,7 +47,7 @@
                 </p>
               </div>
               <div class="common-btn-div">
-                <a href="flutter-developer.html" class="btn"
+                <a href="/CurrentOpeningsDetails" class="btn"
                   >{{ item.button }}
                   <i
                     class="fa fa-arrow-right left-right-move"
