@@ -514,6 +514,13 @@ footer {
     background: url(../image/our-approach-bg.webp) top 140px left no-repeat;
     background-color: #f9f9f9;
 }
+.our-approach-sec-main-div .common-padding-div {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.our-approach-sec-main-div .sub-heading-div , .our-approach-sec-main-div .common-sub-points-div {
+    display: none;
+}
 .common-ul-li-div ul {
     padding: 0px;
     margin: 0px;

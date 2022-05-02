@@ -28,6 +28,15 @@
               <p class="common-para">
                 {{ Rightparagraph4 }}
               </p>
+              <div class="common-ul-li-div mt-3" v-if="isSubPoints">
+                <ul>
+                  <li>{{SubPoints1}}</li>
+                  <li>{{SubPoints2}}</li>
+                  <li>{{SubPoints3}}</li>
+                  <li>{{SubPoints4}}</li>
+                  <li>{{SubPoints5}}</li>
+                </ul>
+              </div>
               <div class="common-btn-div mt-5" v-if="isButton">
                 <a href="#" class="btn"
                   >{{ leftbutton }}
@@ -85,6 +94,30 @@ export default {
       // Button hide in other page
       type: Boolean,
       default: true,
+    },
+    isSubPoints: {
+      type: Boolean,
+      default: false,
+    },
+    SubPoints1: {
+      type: String,
+      default: '',
+    },
+    SubPoints2: {
+      type: String,
+      default: '',
+    },
+    SubPoints3: {
+      type: String,
+      default: '',
+    },
+    SubPoints4: {
+      type: String,
+      default: '',
+    },
+    SubPoints5: {
+      type: String,
+      default: '',
     },
   },
 }

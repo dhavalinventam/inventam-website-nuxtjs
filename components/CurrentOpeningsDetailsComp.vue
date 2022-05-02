@@ -1,39 +1,121 @@
 <template>
-<div>
+  <div>
     <div class="developer-information-main-div common-padding-div">
-    <div class="container">
-        <h2 class="postion-heading">Backend Developer | Node | Python | 1 – 3 Year(S) Exp.</h2>
+      <div class="container">
+        <h2 class="postion-heading">{{ mainTitle }}</h2>
         <div class="common-ul-li-div">
-            <h4 class="postion-sub-heading">Skills Required:</h4>
-            <ul>
-                <li>Node JS ( With Express / Hapi / Loopbak)</li>
-                <li>Python ( Django / Flask )</li>
-                <li>SQL / No-SQL Database</li>
-                <li>Rest API Development</li>
-                <li>It will be an advantage if you have knowledge of AWS S3, EC2, EBS, Lamda, GCloud, Firebase, Redis, LevelDB, GraphQL, Socket.io, TypeScript</li>
-            </ul>
+          <h4 class="postion-sub-heading">{{smallHeading1}}</h4>
+          <ul>
+            <li>{{section1Point1}}</li>
+            <li>{{section1Point2}}</li>
+            <li>{{section1Point3}}</li>
+            <li>{{section1Point4}}</li>
+            <li>{{section1Point5}}</li>
+          </ul>
         </div>
         <div class="common-ul-li-div">
-            <h4 class="postion-sub-heading">Please Take Note For Few Points Before Apply</h4>
-            <ul>
-                <li>If you have enough experience or skills for this job your formal education doesn’t matter.</li>
-                <li>If you have experience of 2 plus but if you don’t have the above skills or only have a few of them but you willing to adopt/learn will provide you environment and time for the same*</li>
-            </ul>
+          <h4 class="postion-sub-heading">
+            {{smallHeading2}}
+          </h4>
+          <ul>
+            <li>
+              {{section2Point1}}
+            </li>
+            <li>
+              {{section2Point2}}
+            </li>
+          </ul>
         </div>
         <div class="current-position-div">
-            <h4 class="postion-sub-heading">Job Category: <label class="pos-value">Back End</label></h4>
-            <p class="openings-text"><i class="fa fa-briefcase" aria-hidden="true"></i><b>Job Type:</b> <label class="pos-value">Full Time</label></p>
-            <p class="openings-text"><i class="fa fa-map-marker" aria-hidden="true"></i><b>Job Location:</b> <label class="pos-value">Surat</label></p>
-            <p class="openings-text"><i class="fa fa-user" aria-hidden="true"></i><b>Openings:</b> <label class="pos-value">5</label></p>
+          <h4 class="postion-sub-heading">
+            {{smallHeading3}} : <label class="pos-value">{{designation}}</label>
+          </h4>
+          <p class="openings-text">
+            <i class="fa fa-briefcase" aria-hidden="true"></i><b>Job Type:</b>
+            <label class="pos-value">{{jobType}}</label>
+          </p>
+          <p class="openings-text">
+            <i class="fa fa-map-marker" aria-hidden="true"></i
+            ><b>Job Location:</b> <label class="pos-value">{{location}}</label>
+          </p>
+          <p class="openings-text">
+            <i class="fa fa-user" aria-hidden="true"></i><b>Openings:</b>
+            <label class="pos-value">{{opening}}</label>
+          </p>
         </div>
+      </div>
     </div>
-</div>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'CurrentOpeningsDetailsComp',
+  name: 'CurrentOpeningsDetailsComp',
+  props: {
+    mainTitle: {
+      type: String,
+      default: '',
+    },
+    smallHeading1: {
+      type: String,
+      default: '',
+    },
+    section1Point1: {
+      type: String,
+      default: '',
+    },
+    section1Point2: {
+      type: String,
+      default: '',
+    },
+    section1Point3: {
+      type: String,
+      default: '',
+    },
+    section1Point4: {
+      type: String,
+      default: '',
+    },
+    section1Point5: {
+      type: String,
+      default: '',
+    },
+    section1Point6: {
+      type: String,
+      default: '',
+    },
+    smallHeading2: {
+      type: String,
+      default: '',
+    },
+    section2Point1: {
+      type: String,
+      default: '',
+    },
+    section2Point2: {
+      type: String,
+      default: '',
+    },
+    smallHeading3: {
+      type: String,
+      default: '',
+    },
+    designation: {
+      type: String,
+      default: '',
+    },
+    jobType: {
+      type: String,
+      default: '',
+    },
+    location: {
+      type: String,
+      default: '',
+    },
+    opening: {
+      type: String,
+      default: '',
+    },
+  },
 }
 </script>
-

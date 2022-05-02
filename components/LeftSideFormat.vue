@@ -31,6 +31,27 @@
                   <p class="common-para">{{ subheadingpara2 }}</p>
                 </div>
               </div>
+
+              <div class="common-ul-li-div" v-if="isLeftSubPoints">
+                  <ul>
+                    <li>
+                      {{LeftSubPoints1}}
+                    </li>
+                    <li>
+                      {{LeftSubPoints2}}
+                    </li>
+                    <li>
+                      {{LeftSubPoints3}}
+                    </li>
+                    <li>
+                      {{LeftSubPoints4}}
+                    </li>
+                    <li>
+                      {{LeftSubPoints5}}
+                    </li>
+                  </ul>
+                </div>
+
               <div class="common-btn-div mt-5" v-if="isButton">
                 <a href="#" class="btn"
                   >{{ leftbutton }}
@@ -103,6 +124,30 @@ export default {
       default: '',
     },
     subheadingpara2: {
+      type: String,
+      default: '',
+    },
+    isLeftSubPoints: {
+      type: Boolean,
+      default: false,
+    },
+    LeftSubPoints1: {
+      type: String,
+      default: '',
+    },
+    LeftSubPoints2: {
+      type: String,
+      default: '',
+    },
+    LeftSubPoints3: {
+      type: String,
+      default: '',
+    },
+    LeftSubPoints4: {
+      type: String,
+      default: '',
+    },
+    LeftSubPoints5: {
       type: String,
       default: '',
     },
