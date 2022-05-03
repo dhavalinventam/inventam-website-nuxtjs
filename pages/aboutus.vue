@@ -2,7 +2,7 @@
   <div>
     <AppHeader />
     <InnerBanner
-      :title="title"
+      :title="bannerTitle"
       :deskbannerImg="deskbannerImg"
       :mobbannerImg="mobbannerImg"
     />
@@ -13,6 +13,7 @@
         :leftpara2="section1para2"
         :leftbutton="section1button1"
         :leftimg="section1img1"
+        :link="link1"
       />
     </div>
     <TechWeUse />
@@ -22,6 +23,7 @@
         :leftpara1="section2para1"
         :leftbutton="section2button1"
         :leftimg="section2img1"
+        :link="link2"
       />
     </div>
     <SatisfiedClients />
@@ -42,6 +44,21 @@ import leftsectionimg1 from '../static/image/who-we-are-img.png'
 
 export default {
   name: 'AboutUs',
+  
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'About Us - Inventam Tech Solution ( OPC ) PVT. LT',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     TechWeUse,
@@ -50,9 +67,13 @@ export default {
     InnerBanner,
     LeftSideFormat,
   },
+  
   data() {
     return {
-      title: 'About Us',
+      // SEO Page Title
+      title: 'About Us - Inventam Tech Solution ( OPC ) PVT. LTD',
+
+      bannerTitle: 'About Us',
       deskbannerImg: DeskBanner,
       mobbannerImg: MobBanner,
 
@@ -63,13 +84,19 @@ export default {
         'We are working with clients across the globe, we have completed more than 94 projects and deal with more than 40 clients who belong to 10 different countries.',
       section1button1: 'Contact Us',
       section1img1: leftsectionimg1,
+      link1: '/contactus',
 
       section2title1: 'Why choose us?',
       section2para1:
         'We have dive deeper into Cloud services and solutions such as SaaS, IaaS, and various backend solutions based on Node.js & Laravel. Our experience provides you the best business-specific solutions that the clients need.',
       section2button1: 'Contact Us',
       section2img1: leftsectionimg1,
+      link2: '/contactus',
     }
   },
+
+  
+    
+
 }
 </script>

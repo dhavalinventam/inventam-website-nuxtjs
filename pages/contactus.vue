@@ -2,7 +2,7 @@
   <div>
     <AppHeader />
     <InnerBanner
-      :title="title"
+      :title="bannerTitle"
       :deskbannerImg="deskbannerImg"
       :mobbannerImg="mobbannerImg"
     />
@@ -71,27 +71,27 @@
                   <h5>Follow Us on social media:</h5>
                   <div class="contact-social-icon-main-div">
                     <div class="social-icon-box">
-                      <a href="#">
+                      <a href="https://www.facebook.com/InventamTechSolution" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="social-icon-box">
-                      <a href="#">
+                      <a href="https://www.instagram.com/inventamtechsolution/" target="_blank">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="social-icon-box">
-                      <a href="#">
+                      <a href="https://www.linkedin.com/company/inventam-tech-solution/" target="_blank">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="social-icon-box">
-                      <a href="#">
+                      <a href="https://twitter.com/InventamTech" target="_blank">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="social-icon-box">
-                      <a href="#">
+                      <a href="#" target="_blank">
                         <i class="fa fa-skype" aria-hidden="true"></i>
                       </a>
                     </div>
@@ -144,10 +144,28 @@ import InqueryForm from '../components/InqueryForm.vue'
 
 export default {
   name: 'ConatctUs',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Contact Us - Inventam Tech Solution ( OPC ) PVT. LTD',
+        },
+      ],
+    }
+  },
+
   components: { AppHeader, InnerBanner, AppFooter, InqueryForm },
   data() {
     return {
-      title: 'Contact Us',
+      // SEO Page Title
+      title: 'Contact Us - Inventam Tech Solution ( OPC ) PVT. LTD',
+
+      bannerTitle: 'Contact Us',
       deskbannerImg: DeskBanner,
       mobbannerImg: MobBanner,
     }

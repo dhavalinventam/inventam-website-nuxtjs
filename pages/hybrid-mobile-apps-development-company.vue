@@ -36,6 +36,7 @@
         :leftpara1="leftSide3.section2para1"
         :leftimg="leftSide3.section3img1"
         :leftbutton="leftSide3.section3btn"
+        :link="leftSide3.link"
       />
     </div>
     <AppFooter />
@@ -60,6 +61,21 @@ import leftsectionimg3 from '../static/image/why-choose-us-img.png'
 
 export default {
   name: 'HybridMobileAppsDevelopmentCompany',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Hire Hybrid developer in Surat, India from Inventam Tech Solution, the best Hybrid Application development company offers mobile app development services with cross platform frameworks',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     AppFooter,
@@ -69,6 +85,9 @@ export default {
   },
   data() {
     return {
+      // SEO Page Title
+      title: "Hire Hybrid App Development Company's Developer for Mobile Application Services in Surat, India",
+
       leftSide1: {
         section1title1: 'India’s Leading Hybrid App Development Company',
         section1para1:
@@ -133,6 +152,7 @@ export default {
           'We have dive deeper experience in web and native apps to develop high-performance cross-platform mobile apps that behave like native on iOS, Android and Windows mobile platforms. Our experience provides you the best business-specific solutions that the clients need. We are a Hybrid application development company with hands-on experience in creating top-performing mobile applications along with cross platform frameworks. We take each work as unique and custom, keeping the process very personalized for the product. Establishing a digital image of your business ideals to become smoother and efficiently done by getting hybrid app development services.',
         section3img1: leftsectionimg3,
         section3btn: 'Contact Us',
+        link: '/contactus',
       },
     }
   },

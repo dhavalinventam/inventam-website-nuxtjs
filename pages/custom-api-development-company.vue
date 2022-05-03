@@ -39,6 +39,7 @@
         :leftpara1="leftSide3.section2para1"
         :leftimg="leftSide3.section3img1"
         :leftbutton="leftSide3.section3btn"
+        :link="leftSide3.link"
       />
     </div>
     <AppFooter />
@@ -71,6 +72,21 @@ import leftsectionimg3 from '../static/image/why-choose-us-img.png'
 
 export default {
   name: 'CustomApiDevelopmentCompany',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Hire API developer in Surat, India from Inventam Tech Solution, the best Rest API development Company offers Custom and Third Party API Integration Services',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     AppFooter,
@@ -81,6 +97,9 @@ export default {
   },
   data() {
     return {
+      // SEO Page Title
+      title: "Hire Rest API Development Company's Developer with Custom Integration Services in Surat, India",
+
       leftSide1: {
         section1title1: 'India’s Leading API Development Company',
         section1para1:
@@ -169,6 +188,7 @@ export default {
           'We develop specialized APIs for new and legacy enterprise applications. Our APIs facilitate access to application data, functionality and business logic, as well as web services. Our web design and protocols include the use of HTTP/HTTPS, XML, XHTML, JSON, Java, SOAP, EDI, AJAX, TCP/IP and/or REST API development services. We are in Rest API Development Company with hands-on experience in creating top-performing APIs for desktop, mobile, and cloud apps, web sockets, Service Oriented Architectures (SOA), firmware/middleware, browsers, databases and operating systems. We also design Hardware Platform Interfaces (HPI) for managing computer systems.',
         section3img1: leftsectionimg3,
         section3btn: 'Contact Us',
+        link: '/contactus',
       },
     }
   },

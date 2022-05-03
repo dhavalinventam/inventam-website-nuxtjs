@@ -46,6 +46,7 @@
         :leftpara1="leftSide3.section2para1"
         :leftimg="leftSide3.section3img1"
         :leftbutton="leftSide3.section3btn"
+        :link="leftSide3.link"
       />
     </div>
     <AppFooter />
@@ -74,6 +75,22 @@ import leftsectionimg3 from '../static/image/why-choose-us-img.png'
 
 export default {
   name: 'FullStackDevelopmentCompany',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Hire Full stack developer in Surat, India from Inventam Tech Solution, the best Full stack development company offers custom web and application development services.',
+        },
+      ],
+    }
+  },
+
+
   components: {
     AppHeader,
     AppFooter,
@@ -84,6 +101,9 @@ export default {
   },
   data() {
     return {
+      // SEO Page Title
+      title: "Hire Full Stack Development Company's Developer for Web and App Services in Surat, India",
+
       leftSide1: {
         section1title1: 'India’s Leading Full Stack Development Company',
         section1para1:
@@ -153,6 +173,7 @@ export default {
           'We believe that the foundation of our relationship with our clients is mutual Growth. Full stack developers at Inventam Tech Solution take full-stack development services to another level. We are a full stack front end and back end development company with having in- depth knowledge, and extensive experience in building any type of web, mobile, or desktop application start from scratch. Our Full Stack development process covers planning, designing & development, testing, 3rd party integration, and ongoing support/maintenance.',
         section3img1: leftsectionimg3,
         section3btn: 'Contact Us',
+        link: '/contactus',
       },
     }
   },

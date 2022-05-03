@@ -39,6 +39,7 @@
         :leftpara1="leftSide3.section2para1"
         :leftimg="leftSide3.section3img1"
         :leftbutton="leftSide3.section3btn"
+        :link="leftSide3.link"
       />
     </div>
     <AppFooter />
@@ -63,6 +64,21 @@ import leftsectionimg3 from '../static/image/why-choose-us-img.png'
 
 export default {
   name: 'ServerlessApplicationDevelopmentCompany',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Hire Serverless developer in Surat, India from Inventam Tech Solution, the best Serverless Application development company offers custom web and app development services using AWS Lambda and API Gateway, Azure Functions and Google Cloud Functions',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     AppFooter,
@@ -72,6 +88,9 @@ export default {
   },
   data() {
     return {
+      // SEO Page Title
+      title: "Hire Serverless Application Development Company's Developer for Web &amp; App Services in Surat, India",
+
       leftSide1: {
         section1title1: 'India’s Leading Serverless App Development Company',
         section1para1:
@@ -135,6 +154,7 @@ export default {
           'We have dive deeper into Cloud services and solutions such as SaaS, IaaS, and various backend solutions based on Node.js & Laravel. Our experience provides you the best business-specific solutions that the clients need. We are a SaaS application development company with hands-on experience in creating top-performing softwares, websites along with cloud based applications. Our SaaS development process covers planning, designing & development, testing, 3rd party integration, and ongoing support/maintenance.',
         section3img1: leftsectionimg3,
         section3btn: 'Contact Us',
+        link: '/contactus',
       },
     }
   },

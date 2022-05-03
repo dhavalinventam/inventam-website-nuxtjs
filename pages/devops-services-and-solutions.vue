@@ -39,6 +39,7 @@
         :leftpara1="leftSide3.section2para1"
         :leftimg="leftSide3.section3img1"
         :leftbutton="leftSide3.section3btn"
+        :link="leftSide3.link"
       />
     </div>
     <AppFooter />
@@ -73,6 +74,21 @@ import leftsectionimg3 from '../static/image/why-choose-us-img.png'
 
 export default {
   name: 'DevopsServicesAndSolutions',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Hire Devops developer in Surat, India from Inventam Tech Solution, the best Devops Services Company offers complete Software and application solution',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     AppFooter,
@@ -83,6 +99,9 @@ export default {
   },
   data() {
     return {
+      // SEO Page Title
+      title: "Hire Devops Services Company's Developer for Software and Application Solution in Surat, India",
+
       leftSide1: {
         section1title1: 'India’s Leading Devops Solution Company',
         section1para1:
@@ -183,6 +202,7 @@ export default {
           'Our services encompass several capabilities such as iterative and incremental development, workload management on demand, lightweight architecture, security and automated testing techniques. The agile approach to software development, allowing our compact teams to build enterprise-level, high-delivery products faster ensuring business continuity and stability. Your organization can make simple processes programmable and dynamic, helping to maximize operational predictability, efficiency, security and maintainability.',
         section3img1: leftsectionimg3,
         section3btn: 'Contact Us',
+        link: '/contactus',
       },
     }
   },

@@ -2,7 +2,7 @@
   <div>
     <AppHeader />
     <InnerBanner
-      :title="title"
+      :title="bannerTitle"
       :deskbannerImg="deskbannerImg"
       :mobbannerImg="mobbannerImg"
     />
@@ -12,6 +12,7 @@
         :subheading="section1subheading1"
         :leftbutton="section1button1"
         :leftimg="section1img1"
+        :link="link"
       />
     </div>
     <RightSideFormat
@@ -47,6 +48,22 @@ import rightsectionimg1 from '../static/image/work-culture-img.png'
 
 export default {
   name: 'CareerPage',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'We are hiring React & Full-Stack Developers including Fresher, Intern and Experienced. Our work Culture is Simple | Transparent | Supportive | Performance-Oriented that suits to Enhance your work Performance.',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     AppFooter,
@@ -58,13 +75,18 @@ export default {
   },
   data() {
     return {
-      title: 'Career',
+      // SEO Page Title
+      title:
+        'We are hiring React &amp; Full-Stack Developers including Fresher, Intern and Experienced | Inventam',
+
+      bannerTitle: 'Career',
       deskbannerImg: DeskBanner,
       mobbannerImg: MobBanner,
 
       section1title1: 'Looking For Work On Advanced Technologies?',
       section1subheading1: 'Join The Rasing Start-up Inventam Tech Solution!',
       section1button1: 'Contact Us',
+      link: '/contactus',
       section1img1: leftsectionimg1,
 
       rightsection1title1: 'Work Culture?',

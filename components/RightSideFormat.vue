@@ -38,7 +38,7 @@
                 </ul>
               </div>
               <div class="common-btn-div mt-5" v-if="isButton">
-                <a href="#" class="btn"
+                <a :href="link" class="btn"
                   >{{ leftbutton }}
                   <i
                     class="fa fa-arrow-right left-right-move"
@@ -94,6 +94,10 @@ export default {
       // Button hide in other page
       type: Boolean,
       default: true,
+    },
+    link: {
+      type: String,
+      default: '',
     },
     isSubPoints: {
       type: Boolean,

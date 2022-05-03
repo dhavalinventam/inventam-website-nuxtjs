@@ -36,6 +36,7 @@
         :leftpara1="leftSide3.section2para1"
         :leftimg="leftSide3.section3img1"
         :leftbutton="leftSide3.section3btn"
+        :link="leftSide3.link"
       />
     </div>
     <AppFooter />
@@ -60,6 +61,21 @@ import leftsectionimg3 from '../static/image/why-choose-us-img.png'
 
 export default {
   name: 'WebApplicationDevelopmentCompany',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Hire Web App developer in Surat, India from Inventam Tech Solution, the best Web Application development company offers Custom Web App services',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     AppFooter,
@@ -69,6 +85,9 @@ export default {
   },
   data() {
     return {
+      // SEO Page Title
+      title: "Hire Web Application Development Company's Developer for Custom Web App Services in Surat, India",
+
       leftSide1: {
         section1title1: 'One Of Rising Web App Development Company',
         section1para1:
@@ -133,6 +152,7 @@ export default {
           'We can develop custom websites, web applications & software on a wide range of technology platforms. We hold expertise in offering minimum maintenance / support & generating business value, so that we remain the client’s partner of choice for custom Web application development, helping them make smart business moves. We are a Web application development company with hands-on experience in creating top-performing web applications along with custom web applications. We understand the requirements of custom website application development tasks and use leading-edge technologies so that need-based Web applications & technology solutions may have longer shelf-life and evolve with the client’s business.',
         section3img1: leftsectionimg3,
         section3btn: 'Contact Us',
+        link: '/contactus',
       },
     }
   },

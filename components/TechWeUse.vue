@@ -48,6 +48,7 @@ import img13 from '../static/image/technology-graphql-icon.png'
 import img14 from '../static/image/technology-firebase-icon.png'
 import img15 from '../static/image/technology-docker-icon.png'
 import img16 from '../static/image/technology-aws-icon.png'
+import img17 from '../static/image/technology-flutter-icon.png'
 
 export default {
   name: 'TechWeUse',
@@ -117,6 +118,10 @@ export default {
         {
           img: img16,
           title: 'Amazon Web Services',
+        },
+        {
+          img: img17,
+          title: 'Flutter',
         },
       ],
     }

@@ -8,6 +8,7 @@
         :Rightparagraph1="rigthtSide1.rightsection1para1"
         :Rightparagraph2="rigthtSide1.rightsection1para2"
         :RightSectionImg="rigthtSide1.rightsection1img1"
+        :link="rigthtSide1.link"
         :leftbutton="rigthtSide1.section1btn"
         :isSubPoints="rigthtSide1.isSubPoints"
         :SubPoints1="rigthtSide1.SubPoints1"
@@ -35,6 +36,7 @@
         :leftpara2="leftSide1.section1para2"
         :leftimg="leftSide1.section1img1"
         :leftbutton="leftSide1.leftsection1btn"
+        :link="leftSide1.link"
         :isLeftSubPoints="leftSide1.isLeftSubPoints"
         :LeftSubPoints1="leftSide1.LeftSubPoints1"
         :LeftSubPoints2="leftSide1.LeftSubPoints2"
@@ -65,6 +67,22 @@ import LeftSideFormat from '../components/LeftSideFormat.vue'
 import leftsectionimg1 from '../static/image/our-approach-img.png'
 
 export default {
+  name: 'IndexPage',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Hire Web and Mobile Application developer in Surat, India from Inventam Tech Solution. Best Web and Mobile Apps development company offers SAAS application, Web Application, Serverless Applications, Hybrid Mobile Apps, Full Stack, Devops, Custom API development with UI UX Design services.',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     HomeBanner,
@@ -77,9 +95,12 @@ export default {
     RightSideFormat,
     LeftSideFormat,
   },
-  name: 'IndexPage',
+
   data() {
     return {
+      // SEO Page Title
+      title: "Hire Web and Mobile Application Development Company's Developer for Web and Mobile Apps Services in Surat, India",
+
       rigthtSide1: {
         rightsection1title1: 'Why Hire Developers from Inventam Tech?',
         rightsection1para1:
@@ -88,6 +109,7 @@ export default {
           'We are working with clients across the globe, we have completed more than 94 projects and deal with more than 40 clients who belong to 10 different countries.',
         rightsection1img1: rightsectionimg1,
         section1btn: 'Contact Us',
+        link: '/contactus',
         isSubPoints: true,
         SubPoints1: 'Experienced and Certified Developers Team',
         SubPoints2: 'Significant 5+ Years Experience in Business',
@@ -104,6 +126,7 @@ export default {
         section1img1: leftsectionimg1,
         isButton: true,
         leftsection1btn: 'Contact Us',
+        link: '/contactus',
         LeftSubPoints1:
           'We create concepts based on the logical approach & ensure its feasibility with major technologies.',
         LeftSubPoints2:

@@ -13,19 +13,19 @@
                   application.
                 </p>
                 <div class="footer-social-div">
-                  <a href="#">
+                  <a href="https://www.facebook.com/InventamTechSolution" target="_blank">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.instagram.com/inventamtechsolution/" target="_blank">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                   </a>
-                  <a href="">
+                  <a href="https://www.linkedin.com/company/inventam-tech-solution/" target="_blank">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                   </a>
-                  <a href="">
+                  <a href="https://twitter.com/InventamTech" target="_blank">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                   </a>
-                  <a href="">
+                  <a href="#" target="_blank">
                     <i class="fa fa-skype" aria-hidden="true"></i>
                   </a>
                 </div>
@@ -35,16 +35,16 @@
               <div class="quick-link-list-div">
                 <h3>Quick Links</h3>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Career</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/aboutus">About Us</a></li>
+                  <li><a href="/career">Career</a></li>
+                  <li><a href="/bloglisting">Blog</a></li>
+                  <li><a href="/contactus">Contact Us</a></li>
                   <li>
-                    <a href="#">Hybrid Mobile App Development</a>
+                    <a href="/hybrid-mobile-apps-development-company">Hybrid Mobile App Development</a>
                   </li>
                   <li>
-                    <a href="#">Web Apps & Websites Development</a>
+                    <a href="/web-application-development-company">Web Apps & Websites Development</a>
                   </li>
                 </ul>
               </div>

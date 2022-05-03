@@ -36,6 +36,7 @@
         :leftpara1="leftSide3.section2para1"
         :leftimg="leftSide3.section3img1"
         :leftbutton="leftSide3.section3btn"
+        :link="leftSide3.link"
       />
     </div>
     <AppFooter />
@@ -60,6 +61,21 @@ import leftsectionimg3 from '../static/image/why-choose-us-img.png'
 
 export default {
   name: 'HybridMobileAppsDevelopmentCompany',
+
+  // SEO Code
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Inventam Tech Solution is the best UI UX Design Company in Surat, India. Our agency is widely known for innovative and creative Web and App Designing Services at lowest price',
+        },
+      ],
+    }
+  },
+
   components: {
     AppHeader,
     AppFooter,
@@ -69,6 +85,9 @@ export default {
   },
   data() {
     return {
+      // SEO Page Title
+      title: 'Best UI UX Design Company for Web and App Designing Services in Surat, India',
+
       leftSide1: {
         section1title1: 'India’s Best UI UX Design Company',
         section1para1:
@@ -133,6 +152,7 @@ export default {
           'We deliver beautiful and high-functioning UI UX design to our clients. From implementing visual graphics and using the user interface (UI) and user experience (UX) design methods, Inventam stays ahead of the curve in UI/UX design services. Our top notch designers are committed to create magic! We create exclusively branded user interfaces and user experience that actually represent your web and app without compromising with its usability. We keep up a proper UI/UX balance to create a system which is both flexible and practical. We will help you uphold your values and achieve your goals through interactive designs that captivate the visitor’s attention.',
         section3img1: leftsectionimg3,
         section3btn: 'Contact Us',
+        link: '/contactus',
       },
     }
   },
