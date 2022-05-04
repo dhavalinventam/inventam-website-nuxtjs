@@ -65,7 +65,7 @@
           </div>
           <div class="col-md-6">
             <div class="common-contain-img-div padding-left-div mob-ts text-center">
-              <img :src="leftimg" class="img-fluid" data-wow-delay="0.5s" />
+              <img :src="leftimg" class="img-fluid" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000" />
             </div>
           </div>
         </div>

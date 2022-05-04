@@ -120,7 +120,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="inquiry-img-div padding-right-div">
-              <img src="image/inquiry-img.png" class="img-fluid" />
+              <img src="image/inquiry-img.png" class="img-fluid" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000" />
             </div>
           </div>
           <div class="col-md-6">

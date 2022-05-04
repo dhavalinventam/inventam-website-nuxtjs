@@ -18,6 +18,7 @@
                   <img
                     :src="item.img"
                     class="img-fluid"
+                    data-aos="flip-left" data-aos-delay="50" data-aos-duration="1500"
                   />
                 </div>
                 <h6 class="service-heading">{{ item.title }}</h6>

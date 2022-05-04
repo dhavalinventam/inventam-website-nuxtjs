@@ -14,6 +14,7 @@
                   <img
                     :src="item.icon"
                     class="img-fluid"
+                    data-aos="flip-left" data-aos-delay="50" data-aos-duration="1500"
                   />
                 </div>
                 <h5>{{item.heading}}</h5>
