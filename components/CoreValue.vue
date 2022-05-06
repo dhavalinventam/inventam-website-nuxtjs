@@ -40,8 +40,5 @@ export default {
     },
     
   },
-//   mounted(){
-//       console.log("coreValue", this.coreValue);
-//   }
 }
 </script>

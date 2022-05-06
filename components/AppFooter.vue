@@ -87,7 +87,7 @@
       <div class="bottom-footer-div">
         <div class="container">
           <p class="common-para">
-            © 2021 All Rights Reserved. Created by Inventam Tech Solution ( OPC
+            © 2022 All Rights Reserved. Created by Inventam Tech Solution ( OPC
             ) PVT. LTD
           </p>
         </div>
