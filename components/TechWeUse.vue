@@ -14,7 +14,7 @@
             :key="index"
             class="technologies-box-div"
           >
-            <div class="flip-box">
+            <div class="flip-box" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000">
               <div class="flip-box-inner">
                 <div class="flip-box-front">
                   <img :src="item.img" class="img-fluid" />

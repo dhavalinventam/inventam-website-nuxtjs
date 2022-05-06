@@ -1262,6 +1262,10 @@ footer {
     }
     nav .navbar-collapse {
         margin-top: 10px;
+        /* position: absolute;
+        width: 100%;
+        top: 62px;
+        z-index: 999; */
     }
     .custom-dropdown-menu {
         width: 100%;
@@ -1338,7 +1342,7 @@ footer {
     .banner-img-div {
         padding-left: 0px;
         padding-right: 0px;
-        margin-top: 60px;
+        margin-top: 70px;
         text-align: center;
     }
     .banner-img-div .main-img {
@@ -1372,7 +1376,10 @@ footer {
         margin-bottom: 40px;
     }
     .our-service-box-div {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
+    }
+    .our-service-sub-div .row .col-md-4:last-child .our-service-box-div {
+        margin-bottom: 0px;
     }
     .common-btn-div .btn i {
         font-size: 14px;
@@ -1408,6 +1415,9 @@ footer {
     }
     .how-we-do-box-div {
         margin-bottom: 120px;
+    }
+    .how-we-do-sub-div .row .col-md-4:last-child .how-we-do-box-div {
+        margin-bottom: 50px;
     }
     .margin-remove {
         margin-bottom: 0px !important;
@@ -1508,6 +1518,9 @@ footer {
     .hiring-process-div .our-service-box-div {
         min-height: inherit;
     }
+    .our-service-sub-div .row .col-md-6:last-child .our-service-box-div {
+        margin-bottom: 0px;
+    }
     .current-openings-box-div {
         padding: 20px 25px;
     }
@@ -1547,6 +1560,9 @@ footer {
     }
     .recommended-posts-div .sub-heading-text {
         margin-bottom: 25px;
+    }
+    .common-btn-div.mt-5 {
+        margin-top: 30px !important;
     }
 }
 

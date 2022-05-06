@@ -8,6 +8,7 @@
               <img
                 :src="RightSectionImg"
                 class="img-fluid"
+                data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000"
               />
             </div>
           </div>

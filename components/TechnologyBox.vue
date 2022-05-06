@@ -10,7 +10,7 @@
                 <div class="col-md-4" v-for="(item, index) of technologyBox.data" :key="index">
                     <div class="our-service-box-div">
                         <div class="service-img">
-                            <img :src="item.icon" class="img-fluid" alt="icon">
+                            <img :src="item.icon" class="img-fluid" alt="icon" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1500">
                         </div>
                         <h6 class="service-heading">{{item.heading}}</h6>
                         <h6 class="service-para">{{item.description}}</h6>
