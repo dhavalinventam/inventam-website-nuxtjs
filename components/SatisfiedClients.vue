@@ -8,8 +8,8 @@
               <div class="facts-img-div">
                 <img src="image/years-in-business-icon.png" class="img-fluid"  data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"/>
               </div>
-              <h6>Years In Business</h6>
               <p><span class="counter-value" data-count="6">6</span></p>
+              <h6>Years In Business</h6>
             </div>
           </div>
           <div class="col-md-4">
@@ -21,8 +21,8 @@
                   data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
                 />
               </div>
-              <h6>Projects Successfully Delivered</h6>
               <p><span class="counter-value" data-count="97">97</span></p>
+              <h6>Projects Successfully Delivered</h6>
             </div>
           </div>
           <div class="col-md-4">
@@ -30,8 +30,8 @@
               <div class="facts-img-div">
                 <img src="image/happy-clien-icon.png" class="img-fluid" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500" />
               </div>
-              <h6>Satisfied Clients</h6>
               <p><span class="counter-value" data-count="40">40</span></p>
+              <h6>Satisfied Clients</h6>
             </div>
           </div>
         </div>

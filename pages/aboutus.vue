@@ -16,8 +16,7 @@
         :link="link1"
       />
     </div>
-    <TechWeUse />
-    <div class="bg-gray">
+    <div>
       <LeftSideFormat
         :lefttitle="section2title1"
         :leftpara1="section2para1"
@@ -35,7 +34,6 @@
 import AppHeader from '../components/AppHeader.vue'
 import InnerBanner from '../components/InnerBanner.vue'
 import LeftSideFormat from '../components/LeftSideFormat.vue'
-import TechWeUse from '../components/TechWeUse.vue'
 import SatisfiedClients from '../components/SatisfiedClients'
 import AppFooter from '../components/AppFooter'
 import DeskBanner from '../static/image/about-us-desk-banner.jpg'
@@ -53,7 +51,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'About Us - Inventam Tech Solution ( OPC ) PVT. LT',
+          content: 'About Us - Inventam Tech Solution ( OPC ) PVT. LTD',
         },
       ],
     }
@@ -61,7 +59,6 @@ export default {
 
   components: {
     AppHeader,
-    TechWeUse,
     AppFooter,
     SatisfiedClients,
     InnerBanner,

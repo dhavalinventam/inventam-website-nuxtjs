@@ -49,11 +49,7 @@
               <div class="common-btn-div">
                 <a href="/CurrentOpeningsDetails" class="btn"
                   >{{ item.button }}
-                  <i
-                    class="fa fa-arrow-right left-right-move"
-                    aria-hidden="true"
-                  ></i
-                ></a>
+                  </a>
               </div>
             </div>
           </div>

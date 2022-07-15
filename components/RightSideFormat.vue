@@ -41,11 +41,7 @@
               <div class="common-btn-div mt-5" v-if="isButton">
                 <a :href="link" class="btn"
                   >{{ leftbutton }}
-                  <i
-                    class="fa fa-arrow-right left-right-move"
-                    aria-hidden="true"
-                  ></i
-                ></a>
+                 </a>
               </div>
             </div>
           </div>
