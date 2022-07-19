@@ -46,7 +46,7 @@
       />
     </div>
     <HowWeDo />
-    <BlogItems />
+    <!-- <BlogItems /> -->
     <SatisfiedClients />
     <AppFooter />
   </div>
@@ -58,7 +58,7 @@ import HomeBanner from '../components/HomeBanner.vue'
 import CoreServices from '../components/CoreServices.vue'
 import TechWeUse from '../components/TechWeUse.vue'
 import HowWeDo from '../components/HowWeDo'
-import BlogItems from '../components/BlogItems'
+// import BlogItems from '../components/BlogItems'
 import SatisfiedClients from '../components/SatisfiedClients'
 import AppFooter from '../components/AppFooter'
 import RightSideFormat from '../components/RightSideFormat.vue'
@@ -89,7 +89,7 @@ export default {
     CoreServices,
     TechWeUse,
     HowWeDo,
-    BlogItems,
+    // BlogItems,
     SatisfiedClients,
     AppFooter,
     RightSideFormat,
@@ -108,7 +108,7 @@ export default {
         rightsection1para2:
           'We are working with clients across the globe, we have completed more than 94 projects and deal with more than 40 clients who belong to 10 different countries.',
         rightsection1img1: rightsectionimg1,
-        section1btn: 'Contact Us',
+        section1btn: 'Contact Us', 
         link: '/contactus',
         isSubPoints: true,
         SubPoints1: 'Experienced and Certified Developers Team',

@@ -10,7 +10,7 @@
             <div v-for="(item, index) of howwedo" :key="index" class="col-md-4">
               <div class="how-we-do-box-div box-margin-div">
                 <div class="how-we-do-icon-div">
-                  <img :src="item.img" class="img-fluid" />
+                  <img :src="item.img" class="img-fluid" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1500" />
                 </div>
                 <h5>{{ item.title }}</h5>
                 <p class="common-para">{{ item.desc }}</p>

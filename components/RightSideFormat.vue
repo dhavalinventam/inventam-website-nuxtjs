@@ -8,6 +8,9 @@
               <img
                 :src="RightSectionImg"
                 class="img-fluid"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+                data-aos-duration="2000"
               />
             </div>
           </div>
@@ -30,21 +33,15 @@
               </p>
               <div class="common-ul-li-div mt-3" v-if="isSubPoints">
                 <ul>
-                  <li>{{SubPoints1}}</li>
-                  <li>{{SubPoints2}}</li>
-                  <li>{{SubPoints3}}</li>
-                  <li>{{SubPoints4}}</li>
-                  <li>{{SubPoints5}}</li>
+                  <li>{{ SubPoints1 }}</li>
+                  <li>{{ SubPoints2 }}</li>
+                  <li>{{ SubPoints3 }}</li>
+                  <li>{{ SubPoints4 }}</li>
+                  <li>{{ SubPoints5 }}</li>
                 </ul>
               </div>
               <div class="common-btn-div mt-5" v-if="isButton">
-                <a :href="link" class="btn"
-                  >{{ leftbutton }}
-                  <i
-                    class="fa fa-arrow-right left-right-move"
-                    aria-hidden="true"
-                  ></i
-                ></a>
+                <a :href="link" class="btn">{{ leftbutton }} </a>
               </div>
             </div>
           </div>

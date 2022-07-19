@@ -38,11 +38,7 @@
             <div class="common-btn-div text-center mt-4">
               <a href="#" class="btn"
                 >Load More
-                <i
-                  class="fa fa-arrow-right left-right-move"
-                  aria-hidden="true"
-                ></i
-              ></a>
+                </a>
             </div>
           </div>
         </div>

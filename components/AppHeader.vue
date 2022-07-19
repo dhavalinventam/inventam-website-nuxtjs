@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="header-section-main-div">
+    <div class="header-section-main-div" >  <!-- id="header-section-main-div" v-on:scroll="shrinkNav" -->
       <b-container>
         <b-navbar toggleable="lg">
           <div class="header-logo">
@@ -52,5 +52,20 @@
 <script>
 export default {
   name: 'AppHeader',
+
+  //  methods: {
+  //   shrinkNav() {
+  //     console.log('calllled');
+  //     const scrollPosition =
+  //       document.documentElement.scrollTop || document.body.scrollTop
+  //     const nav = document.getElementsByClassName('header-section-main-div')
+  //     console.log('nav 11111', nav);
+  //     if (scrollPosition >= 100) {
+  //       nav.classList.add('sticky-header')
+  //     } else {
+  //       nav.classList.remove('sticky-header')
+  //     }
+  //   },
+  //  }
 }
 </script>

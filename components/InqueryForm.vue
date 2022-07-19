@@ -59,11 +59,7 @@
           <div class="common-btn-div">
             <a href="#" class="btn"
               >Send
-              <i
-                class="fa fa-arrow-right left-right-move"
-                aria-hidden="true"
-              ></i
-            ></a>
+              </a>
           </div>
         </div>
       </div>

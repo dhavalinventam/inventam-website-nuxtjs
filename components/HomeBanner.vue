@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="home-banner-sec-main-div">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
+      <div class="container-fluid">
+        <div class="row column-reverse-div">
+          <div class="col-md-5 align-flex-div">
             <div class="banner-contains-div">
               <h2 class="banner-heading-text">
                 <span class="highlight-text">Development</span> <br />Service
@@ -16,22 +16,18 @@
               <div class="common-btn-div">
                 <a href="/web-application-development-company" class="btn"
                   >Know More
-                  <i
-                    class="fa fa-arrow-right left-right-move"
-                    aria-hidden="true"
-                  ></i
-                ></a>
+                  </a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-7">
             <div class="banner-img-div">
               <img
                 src="image/development-service-provider-img.png"
-                class="img-fluid main-img"
+                class="img-fluid main-img" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1500"
               />
               <!-- image-move -->
-              <img
+              <!-- <img
                 src="image/moving-icon1.png"
                 class="img-fluid moving-icons-common moving-icon1 image-move"
               />
@@ -70,7 +66,7 @@
               <img
                 src="image/moving-icon10.png"
                 class="img-fluid moving-icons-common moving-icon10 image-move"
-              />
+              /> -->
             </div>
           </div>
         </div>
